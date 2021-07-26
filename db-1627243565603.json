@@ -1,0 +1,101 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "name": "M.O.B.",
+      "year": 2020,
+      "price": 120,
+      "discount": 0,
+      "stock": 24,
+      "type": "Vinho branco"
+    },
+    {
+      "id": 2,
+      "name": "Quinta do Côto",
+      "year": 2016,
+      "price": 160,
+      "discount": 20,
+      "stock": 17,
+      "type": "Vinho tinto"
+    },
+    {
+      "id": 3,
+      "name": "Lacrau Reserva",
+      "year": 2016,
+      "price": 157,
+      "discount": 25,
+      "stock": 32,
+      "type": "Vinho tinto"
+    },
+    {
+      "id": 4,
+      "name": "Monte do Zambujeiro",
+      "year": 2017,
+      "price": 170,
+      "discount": 15,
+      "stock": 46,
+      "type": "Vinho tinto"
+    },
+    {
+      "id": 5,
+      "name": "Casa Cadaval",
+      "year": 2017,
+      "price": 125,
+      "discount": 40,
+      "stock": 20,
+      "type": "Vinho tinto"
+    },
+    {
+      "id": 6,
+      "name": "Quinta do Saes",
+      "year": 2020,
+      "price": 130,
+      "discount": 0,
+      "stock": 15,
+      "type": "Vinho branco"
+    },
+    {
+      "id": 7,
+      "name": "Brunello di Montalcino",
+      "year": 2014,
+      "price": 260,
+      "discount": 30,
+      "stock": 49,
+      "type": "Vinho tinto"
+    },
+    {
+      "id": 8,
+      "name": "El Porvenir",
+      "year": 2015,
+      "price": 150,
+      "discount": 10,
+      "stock": 28,
+      "type": "Vinho tinto"
+    },
+    {
+      "id": 9,
+      "name": "Grous",
+      "year": 2018,
+      "price": 260,
+      "stock": 11,
+      "type": "Vinho tinto"
+    },
+    {
+      "id": 10,
+      "name": "guru",
+      "year": 2018,
+      "price": 210,
+      "discount": 50,
+      "stock": 67,
+      "type": "Vinho tinto"
+    },
+    {
+      "id": 11,
+      "name": "Saca-rolhas Premium",
+      "year": null,
+      "price": 15,
+      "stock": 97,
+      "type": "Acessórios"
+    }
+  ]
+}
