@@ -23,7 +23,7 @@ const Home: React.FC = () => {
 //      response => {
 //        setData(response.data)
 //      }
-    )
+//    )
   },[])
 
   const handleCart = ( index:number ) => {
