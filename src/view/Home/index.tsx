@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-
+import * as jsonfile from '../../../server.json'
 import { Container } from './style';
 import { Header } from './style';
-import api from '../../services/api';
+//import api from '../../services/api';
 
 interface IProduct{
   id: number;
   name: string;
-  year: number;
+  year: number|null;
   price: number;
   discount: number;
   stock: number;
@@ -18,10 +18,11 @@ const Home: React.FC = () => {
 
   const [data, setData] = useState<IProduct[]>([]);
   useEffect(()=>{
-    api.get('').then(
-      response => {
-        setData(response.data)
-      }
+    setData(jsonfile.produtos)
+//    api.get('').then(
+//      response => {
+//        setData(response.data)
+//      }
     )
   },[])
 
