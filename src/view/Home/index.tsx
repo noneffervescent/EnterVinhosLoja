@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import * as jsonfile from '../../../server.json'
+import * as jsonfile from './server.json'
 import { Container } from './style';
 import { Header } from './style';
 //import api from '../../services/api';
@@ -18,7 +18,7 @@ const Home: React.FC = () => {
 
   const [data, setData] = useState<IProduct[]>([]);
   useEffect(()=>{
-    setData(jsonfile.produtos)
+    setData(jsonfile.produtos);
 //    api.get('').then(
 //      response => {
 //        setData(response.data)
